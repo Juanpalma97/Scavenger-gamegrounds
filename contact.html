@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contactanos Scavenger_games</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+	
+	
+<link href="css/style.css" rel="stylesheet">
+</head>
+	
+
+<body>
+	
+	<header>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">
+				<img src="img/scavenger_games_logo_v3.png" class="img-fluid" width= "200px" alt="logo scavenger">
+				</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tienda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about-us.html">Sobre Nosotros</a>
+      </li>
+    
+      <li class="nav-item active">
+        <a class="nav-link " href="contact.html">Contáctanos</a>
+      </li>
+		 <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+    </ul>
+	  
+	<ul class="navbar-nav ml-auto">
+	
+		<li class="nav-item">
+			<a class="nav-link" href="#"><img src="img/scavenger-facebook.png" alt="logo facebook" class="img-fluid"  width="40px"></a>
+		</li>
+		
+		<li class="nav-item">
+			<a class="nav-link" href="#"><img src="img/scavenger-instagram.png" alt="logo instagram" class="img-fluid" width="40px"></a>
+		</li>
+		
+		<li class="nav-item">
+			<a class="nav-link" href="#"><img src="img/scavenger-twitter.png" alt="logo twitter" class="img-fluid" width="40px"></a>
+		</li>
+	</ul>
+
+  </div>
+</nav>
+		</div>
+	</header>
+	
+	<section id="contact-fondo">
+		<div class="container text-center">
+			<h1 class="titulo-pagina">Contáctanos</h1>
+		</div>
+	</section>
+	
+	
+	<section id="contact-info" class="section">
+		<div class="container">
+			<div class="row">
+				<article class="col-md-6 col-sm-6 col-xs-12">
+					<h4>HABLEMOS</h4>
+					<p>
+Llámenos o envíenos un correo electrónico ahora y hablemos de negocios. Complete el formulario del lado derecho para cualquier problema y sugerencia y nos pondremos en contacto con usted lo antes posible.</p>
+					
+					<ul>
+						<li>+504 2226-14-28</li>
+						<li>scavengergrouds@gmail.com</li>
+					</ul>
+					
+					
+				</article>
+				
+				
+				
+				
+				<article class="col-md-6 col-sm-6 col-xs-12">
+				
+					<form id="form-contact" name="form-contact" action="" method="post">
+						
+						
+						<div class="row">
+							<div class="form-group col-md-6 col-sm-6">
+								<label>Nombre</label>
+								<input type="text" id="nombre" name="nombre" class="form-control" requerid placeholder="Nombre">
+							</div>
+							
+							
+							<div class="form-group col-md-6 col-sm-6">
+								<label>Email</label>
+								<input type="email" id="correo" name="email" class="form-control" requerid placeholder="Email">
+							</div>
+							
+						</div>
+						
+						
+						<div class="form-group"><!--nuevo cuadro-->
+							<label>Tema</label>
+							<select id="Tema" name="Tema" class="form-control">
+								<option value="Comentario">Comentario</option>
+								<option value="Segerencia">Segerencia</option>
+								<option value="Reclamo">Reclamo</option>
+							</select>
+						
+						</div><!--cierre de cuadro-->
+						
+						<div class="form-group">
+							<label>Message</label>
+							<textarea id="message" name="message" class="form-control" rows="5"></textarea>
+						</div>
+						
+						<div class="form-group">
+							<button type="submit" class="btn btn-dark btn-block">Submit</button>
+						</div>
+					
+					
+					</form>
+				</article>
+			
+			</div>
+		</div>
+	</section>
+	
+
+	<section id="contact-place">
+		<div class="container">
+			<div class="row">
+			
+				<article class="col-md-6 col-sm-6 col-xs-12">
+					<img src="img/edificio-scavanger.jpg" alt="oficina-scavenger-grounds" class="img-fluid">
+				</article>
+				
+				<article class="col-md-6 col-sm-6 col-xs-12">
+				
+			   <div id="map"></div>
+		
+				</article>
+		
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	<footer>
+		<div class="container">
+			<img src="img/creative_lab_logo.png" alt="Logo Scavenger Games Blanco" width="100px">
+		  	<p>Copyright© Scavenger Grounds 2019</p>		
+		</div>
+		</footer>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+	
+	<script src="js/gmaps.js"></script>
+
+<!-- path gMaps.js -->
+<script>
+$(function () {
+	
+	$(window).load(function(){
+		mostrarMapa();
+	});
+
+	function mostrarMapa(){
+		var map;
+		var mLat = 14.048399; //latitud
+		var mLng = -87.174078; //longitud
+
+		map = new GMaps({
+			div: '#map', //id del <div> donde se mostrará el mapa.
+			lat: mLat,
+			lng: mLng,
+			zoom: 18
+		  });
+		map.addMarker({
+		  lat: mLat,
+		  lng: mLng,
+		  title: 'Nuestra ubicación en gMaps',
+		  infoWindow: {
+			content: '<p>UNITEC - Univ. Tecnológica de Honduras</p>'
+		  }
+		});	
+		
+	}
+});
+</script>
+	
+	
+	
+</body>
+</html>
