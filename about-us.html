@@ -7,6 +7,8 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+<link href="css/animate.css" rel="stylesheet">
+	
 <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -28,7 +30,7 @@
         <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Tienda</a>
+        <a class="nav-link" href="tienda.html">Tienda</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="about-us.html">Sobre Nosotros</a>
@@ -65,7 +67,7 @@
 
 	<section id="aboutus-fondo">
 		<div class="container text-center">
-			<h1 class="titulo-pagina">Sobre Nosotros</h1>
+			<h1 class="titulo-pagina wow fadeInDown">Sobre Nosotros</h1>
 		</div>
 	</section>
 	
@@ -80,36 +82,31 @@
 							<br>Gillian Marie Boquín
 							<br>Juan Fernando Palma
 					</p>
-						
-	
 					
 				</article>
 				
-				
-				
-				
-				<article class="col-md-6 col-sm-6 col-xs-12">
-				
-					
-				</article>
+			  <article class="col-md-6 col-sm-6 col-xs-12 text-center espacio">
+			    <h3>Scavenger Grounds</h3>
+			    <p>Es una tienda online en el rubro de los videojuegos que se dedica a fabricar, diseñar y vender accesorios únicos con diseños inspirados de franquicias de videojuegos de diversas consolas como Nintendo, Xbox y PlayStation, tales como controles, coleccionables, audífonos y repuestos de dichas consolas. No vende videojuegos en su plataforma, pero está asociada con Limited Run Games para ofrecer juegos exclusivos de Japón y adaptadores para consolas retro.</p>
+</article>
 			
 			</div>
 		</div>
 	</section>
 
 	
-	<section id="vision-mision-valores" class="section">
+	<section id="vision-mision-valores">
 		<div class="container">
 			<div class="row">
 				
-				<article class="col-md-4 col-sm-6 col-xs-12">
+				<article class="col-md-4 col-sm-6 col-xs-12  wow fadeInUpBig" data-wow-delay="0.2s">
 					
 					
 						<div class="informacion-v-m-v">
 							
 			   	
 				<i class="fas fa-eye"></i>			
-				<h5>Visión</h5>
+				<h5 class="titulo-v-m-v">Visión</h5>
 				
 				<p>Convertirnos en una empresa líder en América por medio de nuestros productos para personas interesadas en el mundo de los videojuegos, contando con los mejores precios del mercado según las necesidades de nuestros clientes.  </p>
 				
@@ -118,12 +115,12 @@
 				</article>
 				
 				
-				<article class="col-md-4 col-sm-6 col-xs-12">
+				<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUpBig"  data-wow-delay="0.4s">
 					
 						<div class="informacion-v-m-v">
 							
 				<i class="fas fa-star"></i>			
-				<h5>Misión</h5>
+				<h5 class="titulo-v-m-v">Misión</h5>
 				<p> Nuestra misión en brindar artículos y productos de alta calidad con precios accesibles al público, otorgándoles a nuestros clientes seguridad y confianza al momento de efectuar sus compras por medio de nuestra página web y que a la misma vez sientan satisfacción al navegar.  </p>
 				
 					</div>	
@@ -131,12 +128,12 @@
 				</article>
 				
 				
-				<article class="col-md-4 col-sm-6 col-xs-12">
+				<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUpBig"  data-wow-delay="0.6s">
 					
 						<div class="informacion-v-m-v">
 							
 				<i class="fas fa-heart"></i>			
-				<h5>Valores</h5>
+				<h5 class="titulo-v-m-v">Valores</h5>
 				<p><b>Honestidad:</b> Coherencia con el cliente y con nuestro trabajo.
 	<b>Innovación:</b> Estar actualizados con las tendencias del momento como también su contenido.
 	<b>Calidad:</b> Diferenciarnos por tener una máxima calidad en el servicio que brindaremos a nuestros clientes.
@@ -158,18 +155,26 @@
 	<footer>
 		<div class="container">
 			<img src="img/creative_lab_logo.png" alt="Logo Scavenger Games Blanco" width="100px">
-			<ul class="list-unstyled list-inline">
-				<li class="list-inline-item"><a href="#">Facebook</a></li>
-				<li class="list-inline-item"><a href="#">Twitter</a></li>
-				<li class="list-inline-item"><a href="#">Instagram</a></li>
-			</ul>
+			
 		  <p>Copyright© Scavenger Grounds 2019</p>		
 		</div>
 		</footer>
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	
+	<script src="js/wow.min.js"></script>
+	<script>
+              new WOW().init();
+              </script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146914108-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146914108-1');
+</script>
 	
 </body>
 </html>

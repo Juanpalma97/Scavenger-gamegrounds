@@ -21,10 +21,19 @@ header{
 	z-index: 1000;
 }
 
+#seller{
+	background-image: url( "../img/fondo best seller-01.jpg");
+	background-size: cover;
+	
+}
+
+
 #oferta{
 	background-color: #45c4dc;
 	padding: 0 0 80px ;
 	text-align: center;
+	background-image: url("../img/fondo final mario mad.jpg");
+	opacity: 75%;
 }
 
 .oferta{
@@ -262,6 +271,7 @@ ul{
 
 #vision-mision-valores{
 	background-color:#FFFFFF;
+	padding-bottom: 50px;
 }
 
 
@@ -272,7 +282,7 @@ ul{
 	margin-top: 40px;
 	border-radius: 8px;
 	border: 1px solid #ddd;
-	min-height: 600px;
+	min-height: 435px;
 	
 	
 }
@@ -299,7 +309,7 @@ ul{
 }
 
 
-#vision-mision-valores h5{
+.titulo-v-m-v{
 	color: #FFFFFF;
 }
 
@@ -314,10 +324,57 @@ ul{
 }
 
 
+
+
+#shop{
+	background-image: url("../img/fondo shop-01.jpg");
+	background-size: cover;
+	background-position:top center;
+	position: relative;
+	height: 50vh;
+}
+
+#tienda-produ p{
+	font-size: 18px;
+}
+
+.titulostienda{
+	color: #14909C;
+	text-align: center;
+	font-size: 17px;
+	
+}
+
+#filtro-formulario{
+	padding-top: 60px;
+
+}
+
+
+#productos-shop, #plataforma, #ordenarpor{
+	background-color: #14909C;
+	color: #FFFFFF;
+}
+
+
+.espacio {
+	margin-top: 100px;
+	
+}
+
+
+
+
 footer{
 	text-align: center;
 	background-color: black;
 	color: white;
-	padding: 30px 0;}
+	padding: 30px 0;
+
+}
+
+footer img{
+	padding: 10px 0;
+}
 
 

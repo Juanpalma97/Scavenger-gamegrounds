@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contactanos Scavenger_games</title>
-<link href="css/bootstrap.min.css" rel="stylesheet">
-	
+<link href="css/bootstrap.min.css" rel="stylesheet">	
 <link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
@@ -34,7 +34,7 @@
         <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Tienda</a>
+        <a class="nav-link" href="tienda.html">Tienda</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about-us.html">Sobre Nosotros</a>
@@ -70,7 +70,7 @@
 	
 	<section id="contact-fondo">
 		<div class="container text-center">
-			<h1 class="titulo-pagina">Contáctanos</h1>
+			<h1 class="titulo-pagina wow fadeInDown">Contáctanos</h1>
 		</div>
 	</section>
 	
@@ -181,6 +181,10 @@ Llámenos o envíenos un correo electrónico ahora y hablemos de negocios. Compl
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+              new WOW().init();
+              </script>
 	
 	
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
@@ -219,6 +223,15 @@ $(function () {
 });
 </script>
 	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146914108-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146914108-1');
+</script>	
 	
 	
 </body>
